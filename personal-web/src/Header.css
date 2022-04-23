@@ -1,0 +1,65 @@
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5;
+}
+
+body {
+  font-size: 1.6rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: darkgray;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background: darkblue;
+}
+
+.brand {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.navToggler div {
+  width: 3rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: darkgrey;
+}
+
+.navToggler {
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navToggler {
+    display: block;
+  }
+  .navMenu {
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    width: 50%;
+    height: 93vh;
+    background: darkblue;
+    flex-direction: column;
+  }
+}
