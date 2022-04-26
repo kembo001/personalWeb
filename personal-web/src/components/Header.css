@@ -1,0 +1,53 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+
+h1 {
+  color: #fff;
+}
+
+.headerContainer {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+/* Resume */
+.resume {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+/* Socials */
+
+.headerSocials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+}
+
+/* Image */
+.me {
+  background: var(--color-primary);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 4rem;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* .me {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+} */
