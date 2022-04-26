@@ -25,7 +25,7 @@ h1 {
 
 .headerSocials {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   gap: 0.8rem;
   position: absolute;
@@ -33,9 +33,16 @@ h1 {
   bottom: 3rem;
 }
 
+.headerSocials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
 /* Image */
 .me {
-  background: var(--color-primary);
+  /* background: var(--color-primary); */
   width: 22rem;
   height: 30rem;
   position: absolute;
@@ -46,8 +53,19 @@ h1 {
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
-/* .me {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-} */
+/* -----MEDIA QUERY-------- */
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+  .headerSocials {
+    display: none;
+  }
+}
