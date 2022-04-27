@@ -1,1 +1,32 @@
+    
+    #wrapper{
+        padding: 25px;
+        font-size: 24px;
+        font-weight: bold;
+        background:rgba(29,26,28,.7);
+        background-repeat:no-repeat;
+        background-position: center center;
+        width: 70%;
+        margin-left: 16%;
+    }
+    
+   
+  
 
+  @media screen and (max-width: 1024px) {
+   #wrapper{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    width: fit-content;
+   }
+  }
+  
+  @media screen and (max-width: 600px) {
+   #wrapper{
+       padding: 0;
+       margin: 0;
+       font-size: 15px;
+       width: fit-content;
+   }
+  }

@@ -6,10 +6,10 @@ import Socials from './Socials'
 
 function Header() {
   return (
-    <header>
+    <header id='home'>
       <div className= 'container headerContainer'>
         <h5 className='text-light'>Hello, My name is</h5>
-        <h1 id='home'>Brandon Kemboi</h1>
+        <h1>Brandon Kemboi</h1>
         <h5 className='text-light'>Web Developer & Problem Solver</h5>
         <Resume />
         <Socials />
