@@ -5,8 +5,8 @@ import {BsGithub} from 'react-icons/bs'
 function Socials() {
   return (
     <div className='headerSocials'>
-      <a href='Youtube.com' target='_blank'><BsLinkedin/></a>
-      <a href='Youtube.com' target='_blank'><BsGithub/></a>
+      <a href='https://linkedin.com/in/brandonkemboi' target='_blank'><BsLinkedin/></a>
+      <a href='https://github.com/kembo001' target='_blank'><BsGithub/></a>
     </div>
   )
 }

@@ -3,7 +3,10 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <footer>
+     <p>&copy; Brandon Kemboi 2022</p>
+     <a href='#home' className='footerBtn'>Back to top</a>
+    </footer>
   )
 }
 
