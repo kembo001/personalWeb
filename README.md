@@ -2,7 +2,8 @@
 ![image](https://user-images.githubusercontent.com/47574348/165476851-f933746f-34fe-4232-a1f5-0f6494678454.png)
 
 # About this Project
-# Live Link
+Coded from scratch, I used this opportunity to learn more about React and to test my skills. I used new designs for the nav bar, added animations and used EmailJS for the contact form below.
+# Live Link: https://bkboi.me/
 # Built With 
 - HTML
 - CSS
