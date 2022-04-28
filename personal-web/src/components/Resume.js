@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../image/CV.pdf'
+import CV from '../image/Resume (2).pdf'
 
 function Resume() {
   return (
