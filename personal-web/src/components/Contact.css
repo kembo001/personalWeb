@@ -1,7 +1,7 @@
 .container.contactContainer{
     width: 58%;
     display: grid;
-    grid-template-columns: 30% 58%;
+    grid-template-columns: 60% 60%;
     gap: 12%;
 }
 
@@ -36,7 +36,7 @@ input, textarea{
     color: #fff;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1505px) {
     .container.contactContainer{
         grid-template-columns: 1fr;
         gap: 2rem;
