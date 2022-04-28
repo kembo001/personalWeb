@@ -5,6 +5,7 @@ import bookReviews from '../image/Book Reviews.png'
 import fitnessTracker from '../image/Fitness tracker.png'
 import mealPlan from '../image/Meal plan.png'
 import personalweb from '../image/personalweb.png'
+import googleBooks from '../image/googleSearchEngine.png'
 
 function Projects() {
   return (
@@ -47,19 +48,23 @@ function Projects() {
           <a href='https://github.com/annsabie/bookreviews.git' className='btn' target='_blank'>Repo</a>
           <a href='https://sabiebookreview.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
         </article>
-        
+
         <article>
-        <h3>Fitness Tracker</h3>
+        <h3>Book Search Engine</h3>
           <div className='projectsImage'>
-            <img src={fitnessTracker} alt=''/>
+            <img src={googleBooks} alt=''/>
             <div className='projectdescription'>
-              <p>In this application, I created a workout tracker. It creates and tracks your daily workouts. You'll be able to log each workout you have done and the name, type, weight, sets, reps and duration of the workout will pop up.</p>
-               <p> This application uses MongoDB as the database.</p>
+            <p>For this project, I used Google Books API search engine, built with MERN, to create a site where users can look up their favorite books and reviews on them. </p>
+               <p>This application uses a login and sign up function.</p>
             </div>
             </div>
-          <a href='https://github.com/kembo001/fitnessTracker.git' className='btn' target='_blank'>Repo</a>
-          <a href='https://kemboi-fitness-tracker.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href='https://github.com/kembo001/bookSearchEngine' className='btn' target='_blank'>Repo</a>
+          <a href='https://goofy-kare-75cadd.netlify.app/' className='btn btn-primary' target='_blank'>Live Demo</a>
         </article>
+        
+        
+
+       
 
         <article>
         <h3>Meal Plan</h3>
@@ -72,6 +77,19 @@ function Projects() {
             </div>
           <a href='https://github.com/kembo001/mealPlan' className='btn' target='_blank'>Repo</a>
           <a href='https://kembo001.github.io/mealPlan/' className='btn btn-primary' target='_blank'>Live Demo</a>
+        </article>
+
+        <article>
+        <h3>Fitness Tracker</h3>
+          <div className='projectsImage'>
+            <img src={fitnessTracker} alt=''/>
+            <div className='projectdescription'>
+              <p>In this application, I created a workout tracker. It creates and tracks your daily workouts. You'll be able to log each workout you have done and the name, type, weight, sets, reps and duration of the workout will pop up.</p>
+               <p> This application uses MongoDB as the database.</p>
+            </div>
+            </div>
+          <a href='https://github.com/kembo001/fitnessTracker.git' className='btn' target='_blank'>Repo</a>
+          <a href='https://kemboi-fitness-tracker.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
         </article>
 
         
