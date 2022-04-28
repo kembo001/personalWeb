@@ -3,7 +3,7 @@
 
 # About this Project
 Coded from scratch, I used this opportunity to learn more about React and to test my skills. I used new designs for the nav bar, added animations and used EmailJS for the contact form below.
-# Live Link: https://bkboi.me/
+# Live Link: bkboi.me
 # Built With 
 - HTML
 - CSS
