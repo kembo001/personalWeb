@@ -1,5 +1,6 @@
 {
   "name": "personal-web",
+  "homepage": "https://brandkboi.me",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
